@@ -1,0 +1,19 @@
+{
+  "name": "loginserver",
+  "version": "1.0.0",
+  "description": "로그인 프론트-백 구축",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parksh100/loginServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parksh100/loginServer/issues"
+  },
+  "homepage": "https://github.com/parksh100/loginServer#readme"
+}
