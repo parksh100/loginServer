@@ -1,23 +1,30 @@
 {
-  "name": "loginserver",
+  "name": "loginServer",
   "version": "1.0.0",
   "description": "로그인 프론트-백 구축",
-  "main": "index.js",
+  "main": "app.js",
+  "bin": {
+    "loginServer": "www.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {},
   "scripts": {
+    "start": "node ./bin/www.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/parksh100/loginServer.git"
   },
+  "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/parksh100/loginServer/issues"
   },
-  "homepage": "https://github.com/parksh100/loginServer#readme",
-  "dependencies": {
-    "ejs": "^3.1.6",
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/parksh100/loginServer#readme"
 }
