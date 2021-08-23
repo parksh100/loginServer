@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/parksh100/loginServer/issues"
   },
-  "homepage": "https://github.com/parksh100/loginServer#readme"
+  "homepage": "https://github.com/parksh100/loginServer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
