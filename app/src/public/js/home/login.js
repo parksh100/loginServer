@@ -19,6 +19,10 @@ function login() {
       "content-type": "application/json", //json형태로 보낸다는 것을 알려줌
     },
     body: JSON.stringify(req), //json화 함
-  });
+  })
+    //서버에 보내고 서버의 응답을 받으려면
+    .then((res) => console.log(res.json()));
 }
 //이상의 데이터를 서버에서 받을 수 있는 api가 마련되어 있어야 한다.
+
+//18번 영상부터 다음
