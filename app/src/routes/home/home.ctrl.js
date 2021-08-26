@@ -1,7 +1,7 @@
 "use strict";
 
 const users = {
-  id: ["parsh", "홍길동", "김팀장"],
+  id: ["parksh", "홍길동", "김팀장"],
   psw: ["1234", "12345", "123456"],
 };
 
