@@ -22,7 +22,16 @@ function login() {
   })
     //서버에 보내고 서버의 응답을 받으려면
     .then((res) => res.json())
-    .then((res) => console.log(res));
+    .then((res) => {
+      if (res.success) {
+        location.href = "/";
+      } else {
+        alert(res.msg);
+      }
+    })
+    .catch((err) => {
+      console.log(new Error("로그인 중 에러 발생"));
+    });
 }
 //이상의 데이터를 서버에서 받을 수 있는 api가 마련되어 있어야 한다.
 
