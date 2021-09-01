@@ -18,6 +18,8 @@ class UserStorage {
     }, {});
     return newUsers;
   }
+
+  static;
 }
 
 module.exports = UserStorage;
